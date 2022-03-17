@@ -7,7 +7,7 @@ namespace BotRunner.BotRunner
     {
 
         [TestMethod]
-        public void SearchForVideo()
+        public void SearchForProduct()
         {
 
             try
