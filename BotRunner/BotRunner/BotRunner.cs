@@ -24,9 +24,9 @@ namespace BotRunner.BotRunner
             }
             finally
             {
-                _logger.WriteLogToFile();
-
                 _webBot.ForceClose();
+
+                _logger.WriteLogToFile();
             }
 
         }
